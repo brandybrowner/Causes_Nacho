@@ -1,0 +1,181 @@
+
+.wrapper{
+	width: 1024px;
+	margin: 0 auto;
+}
+
+#about{
+	width: 700px;
+	margin: 0 25px;
+}
+
+#info-graph{
+	width: 250px;
+}
+
+#childhood{
+	margin-left: 135px;
+}
+
+.activity{
+	float: left;
+	width: 240px;
+	margin-right: 20px;
+}
+
+.mantra{
+	width: 600px;
+	margin: 0 auto;
+	font-size: 32px;
+	color: orange;
+	font-family: arial, sans-serif;
+}
+
+h1{
+	color: #ff9b00
+	width: 750px;
+	text-align: center;
+	font-family: arial, sans-serif;
+	color: #ff9b00;
+}
+
+h2{
+	text-align: center;
+	/*margin-left: 10px;*/
+	font-family: arial, sans-serif;
+	color: #ff9b00;
+}
+
+p{
+	width: 700px;
+	margin-left: 25px;
+	font-family: arial, sans-serif;
+}
+
+
+.side-bar{
+	float: right;
+	width: 250px;
+	height: 750px;
+}
+
+.main, .article-one{
+	float: left;
+	width: 750px;
+	height: 750px;
+	font-family: arial, sans-serif;
+	color: #666666;	
+}
+
+.attributes{
+	width: 650px;
+	margin-left: 50px;
+}
+
+.article-holder{
+	clear: both;
+	width: 1024px;
+	height: 400px;
+}
+
+.article-two{
+	float: left;
+	width:480px;
+	height: 280px;
+	padding: 10px;
+	margin-top: 20px;
+	margin-right: 10px;
+}
+
+.article-three{
+	float: right;
+	width: 480px;
+	height: 280px;
+	padding: 10px;
+	margin-top: 20px;
+}
+
+.mini{
+	float: right;
+	width: 220px;
+}
+
+.small{
+	width: 220px;
+	font-family: arial, sans-serif;
+	color: #666666;
+	}
+
+ /*this controls the 2 social media icons*/
+.socialmedia {
+	margin-top: 30px;
+	margin-left: 30px;
+	float: right;
+	}
+
+/*this controls the main nav bar*/
+nav {
+	width: 1024px;
+	float: right;
+	padding: 5px;
+	text-align: right;
+	margin-top: 10px;
+	margin-right: 0px;
+	background-color: #0084cc;
+}
+
+/*this li controls the nav bar*/
+li {
+	display: inline-block;
+	margin: 0 15px;
+}
+
+/*these otherlinks control links in the nav bar*/
+.otherlinks {
+  	color: #ffffff;
+  	text-decoration: none;
+  	font-family: Arial, sans-serif;
+  	font-weight: bold;
+  	font-size: 24px;
+}
+
+.otherlinks:hover {
+    color: #06436d;
+}
+
+.otherlinks.active {
+	pointer-events: none;
+	color: #a3c8e6;
+}
+
+/*these three areas control the links in the site. have to find out how to fix it so it doesn't impact all the links on the site */
+a {
+    color: #06436d;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+	text-decoration: underline;
+    }
+
+a:active {
+	color: #ff9b00;
+	text-decoration: underline;
+    }
+
+    /*this controls the footer*/
+footer {
+	float: left;
+	width: 940px;
+	height: 80px;
+	margin-top: 50px;
+	font-family: Arial, sans-serif;
+    color: #666666;
+    font-size: 20px 
+	}
+
+
+
+
+

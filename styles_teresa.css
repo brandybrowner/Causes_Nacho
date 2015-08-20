@@ -1,0 +1,138 @@
+/*this formats content on the lower home page*/
+.header1 {
+	font-family: Arial, sans-serif;
+	text-align: left;
+	font-size: 32px;
+	line-height: 34px;
+	color: #ff9b00;		
+	}
+
+.header2 {
+	font-family: Arial, sans-serif;
+	text-align: left;
+	font-size: 26px;
+	line-height: 26px;
+	color: #666666;		
+	}
+
+.body {
+	font-family: Arial, sans-serif;
+	font-size: 20px;
+	line-height: 24px;
+	color: #666666;		
+	}
+
+/*this controls the width of the site*/
+.wrapper {
+	width: 940px;
+	margin: 0 auto;
+	}
+
+/*this controls the 2 social media icons*/
+.socialmedia {
+	margin-top: 30px;
+	margin-left: 30px;
+	float: right;
+	}
+
+/*3 column layout with floats. all columns the same (except content). see page 376*/
+.boxystatsleft, .boxystatsmiddle, .boxystatsright {
+	background: #0084cc;
+	width: 220px;
+	height: 150px;
+	float: left;
+	margin: 50px 20px;
+	padding: 20px;
+	color: #ffffff;
+ 	font-family: Arial, sans-serif;
+ 	font-weight: bold;
+  	font-size: 22px;
+  	text-align: center;
+  	vertical-align: middle;
+	}
+
+/*this controls the main nav bar*/
+nav {
+	width: 940px;
+	float: right;
+	padding: 5px;
+	text-align: right;
+	margin-top: 10px;
+	margin-right: 0px;
+	background-color: #0084cc;
+	}
+
+/*this li controls the nav bar*/
+li {
+	display: inline-block;
+	margin: 0 15px;
+	}
+
+/*these otherlinks control links in the nav bar*/
+.otherlinks {
+  	color: #ffffff;
+  	text-decoration: none;
+  	font-family: Arial, sans-serif;
+  	font-weight: bold;
+  	font-size: 24px;
+	}
+
+.otherlinks:hover {
+    color: #06436d;
+	}
+
+.otherlinks.active {
+	pointer-events: none;
+	color: #a3c8e6;
+	}
+
+/*these three areas control the links in the site. have to find out how to fix it so it doesn't impact all the links on the site */
+a {
+    color: #06436d;
+    text-decoration: none;
+    font-weight: bold;
+	}
+
+a:hover {
+	text-decoration: underline;
+    }
+
+a:active {
+	color: orange;
+	text-decoration: underline;
+    }
+
+/*this controls the 2-column layout on the home page*/
+.column1of2  { 
+    float: left;
+    width: 45%;
+    margin-left: 0px;
+    min-height: 100px;
+    line-height: 25px;
+ 	font-family: Arial, sans-serif;
+    color: #666666;
+    font-size: 20px 
+    }
+
+.column2of2  { 
+    float: right;
+    width: 45%;
+    margin-left: 0px;
+    min-height: 100px;
+    line-height: 25px;
+ 	font-family: Arial, sans-serif;
+    color: #666666;
+    font-size: 20px 
+	}
+
+/*this controls the footer*/
+footer {
+	float: left;
+	width: 940px;
+	height: 80px;
+	margin-top: 50px;
+	font-family: Arial, sans-serif;
+    color: #666666;
+    font-size: 20px 
+
+	}
